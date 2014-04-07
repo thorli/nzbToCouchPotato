@@ -127,7 +127,7 @@ def process(dirName, nzbName=None, status=0):
             print "exiting postprocessing script"
             sys.exit(1)
         
-        url = protocol + host + ":" + port + web_root + "/api/" + apikey + "/searcher.try_next/?id=" + movid
+        url = protocol + host + ":" + port + web_root + "/api/" + apikey + "/movie.searcher.try_next/?id=" + movid
         
         print "Opening URL:", url
     
